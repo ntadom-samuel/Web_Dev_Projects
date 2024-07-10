@@ -1,0 +1,51 @@
+/* ACTIVITIES LANDING PAGE */
+.actvities__body {
+  margin-bottom: 4.8rem;
+}
+
+.activities__container .actvities__body:last-child {
+  margin-bottom: 0;
+}
+
+/* TODO: remove margin bottom of last child div */
+.activities__header {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  color: #343a40;
+}
+.activities__list__container {
+  list-style-type: none;
+}
+
+.activities__list__container__element {
+  margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.activities__list__container .activities__list__container__element:last-child {
+  margin-bottom: 0;
+}
+
+.activities__list__icon {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  color: #495057;
+}
+
+.activities__nl,
+.activities,
+.activities:visited,
+.activities:link {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.activities:hover,
+.activities:active {
+  color: #868e96;
+}
