@@ -1,0 +1,22 @@
+/* Footer */
+.footer {
+  /* Grid */
+  display: flex;
+  justify-content: center;
+
+  /* Norm */
+  height: 40vh;
+  padding: 2.4rem 3.2rem;
+}
+.footer-items-container {
+  /* Norm */
+  width: 50%;
+
+  /* Grid */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-text {
+  font-size: 1.6em;
+}

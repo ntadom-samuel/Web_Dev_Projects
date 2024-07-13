@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="home.js"></script>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <main class="home-page-main-section">
+      <section class="home-section1">
+        <div class="home-section1-options">
+          <header class="logo">Spotygram</header>
+          <ul class="options-container">
+            <li class="options">
+              <ion-icon name="person-circle-outline"></ion-icon>
+              <span>me</span>
+            </li>
+            <li class="options">
+              <ion-icon name="person-add-outline"></ion-icon
+              ><span>followers</span>
+            </li>
+            <li class="options">
+              <ion-icon name="people-outline"></ion-icon><span>friends</span>
+            </li>
+            <li class="options">
+              <ion-icon name="list-outline"></ion-icon><span>playlist</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="options-footer">
+          <span>log out</span><ion-icon name="send-outline"></ion-icon>
+        </div>
+      </section>
+      <section class="home-section2">
+        <div class="welcome-text">
+          Welcome, <span class="display-username">Username</span>
+        </div>
+        <div class="playlist-section">
+          <header class="playlist-title">Songs</header>
+          <div class="playlist-container">
+            <div class="playlists">
+              <div class="bio-container">
+                <img class="singer-image" src="person.jpg" alt="" />
+                <div class="song-info-container">
+                  <p class="song-title">Song</p>
+                  <p class="singer">Singer</p>
+                </div>
+              </div>
+              <div class="number-of-music-plays">Number of plays <ion-icon class="music-play-icons" name="bonfire-outline"></ion-icon></div>
+            </div>
+        </div>
+        <div class="add-songs-section">
+          <div class="add-songs-title">Add Songs</div>
+          <ion-icon class="add-songs-icon" name="add-circle-outline"></ion-icon>
+        </div>
+        <div class="playlist-section">
+          <header class="playlist-title">Playlist</header>
+          <div class="playlist-container">
+            <div class="playlists">
+              <div class="bio-container">
+                <img class="singer-image" src="person.jpg" alt="" />
+                <div>
+                  <p class="song-title">Song</p>
+                  <p class="singer">Singer</p>
+                </div>
+              </div>
+              <div class="number-of-music-plays">Number of plays <ion-icon class="music-play-icons" name="bonfire-outline"></ion-icon></div>
+            </div>
+            <div class="playlists">
+              <div class="bio-container">
+                <img class="singer-image" src="person.jpg" alt="" />
+                <div>
+                  <p class="song-title">Song</p>
+                  <p class="singer">Singer</p>
+                </div>
+              </div>
+              <div class="number-of-music-plays">Number of plays <ion-icon class="music-play-icons" name="bonfire-outline"></ion-icon></div>
+            </div>
+            <div class="playlists">
+              <div class="bio-container">
+                <img class="singer-image" src="person.jpg" alt="" />
+                <div>
+                  <p class="song-title">Song</p>
+                  <p class="singer">Singer</p>
+                </div>
+              </div>
+              <div class="number-of-music-plays">Number of plays <ion-icon class="music-play-icons" name="bonfire-outline"></ion-icon></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home-section3">
+        <div class="friends-followers-container">
+          <span id="friends" class="community">Friends</span
+          ><span id="followers" class="community">Followers</span>
+        </div>
+        <div class="friends-list-container">
+          <form class="friend-search-form" action="">
+            <input class="friend-search" placeholder="Search for friends and followers" type="search" />
+          </form>
+          <ul class="friends-list">
+            <li class="friends-item">
+              <div class="freinds-name-image">
+                <img class="friends-image" src="person.jpg" alt="" />
+                <span class="friends-name">Abdul Ganiyu</span>
+              </div>
+              <div class="accept-reject-buttons-container">
+                <button class="accept-button btn">Accept</button
+                ><button class="reject-button btn">Reject</button>
+              </div>
+            </li>
+            <li class="friends-item following">
+              <div class="freinds-name-image ">
+                <img class="friends-image" src="person.jpg" alt="" />
+                <span class="friends-name">Samuel Ntadom</span> 
+              </div>
+              <span class="following-p">following</span>
+            </li>
+            <li class="friends-item following">
+              <div class="freinds-name-image ">
+                <img class="friends-image" src="person.jpg" alt="" />
+                <span class="friends-name">Samuel Ntadom</span> 
+              </div>
+              <span class="following-p">following</span>
+            </li>
+            <li class="friends-item following">
+              <div class="freinds-name-image ">
+                <img class="friends-image" src="person.jpg" alt="" />
+                <span class="friends-name">Samuel Ntadom</span> 
+              </div>
+              <span class="following-p">following</span>
+            </li>
+            
+          </ul>
+        </div>
+        <footer class="homepage-footer container">
+          <span class="footer-text">Calvin University</span>
+          <span class="footer-text"
+            >Samuel Ntadom's Portfolio. &copy;
+            <span class="date">DATE</span></span
+          >
+        </footer>
+      </section>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

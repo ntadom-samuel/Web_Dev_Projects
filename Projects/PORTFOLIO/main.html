@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main_css/style.css" />
+    <link rel="stylesheet" href="./general.css" />
+    <link rel="stylesheet" href="main_css/responsive.css" />
+    <link rel="stylesheet" href="general_responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <script defer type="module" src="view.js"></script> -->
+    <script defer src="view.js"></script>
+
+    <!-- Temporary Solution -->
+     <script
+      defer
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Sam's Portfolio</title>
+  </head>
+  <body>
+    <main class="landing_page" id="home">
+      <!-- header contains nav and logo -->
+      <nav class="container nav_bar">
+        <span class="logo">S/NTADOM</span>
+        <ul class="nav_links_container">
+          <!-- <a href="#home" class="nav_link">Home</a>
+          <a href="#p_p" class="nav_link">Projects</a>
+          <a href="#c_p" class="nav_link">Contact</a>
+          <a href="activities.html" class="nav_link">Activities & Courses</a>
+          <a href="about.html" class="nav_link">Me</a> -->
+        </ul>
+      </nav>
+
+      <header class="landing_page_body__header container">Samuel I. Ntadom</header>
+
+      <article class="landing_page_body container">
+        
+        <div class="landing_page_body__article">
+          Welcome to my web page! I am a
+          <span class="main-text-design"> technology entusiast</span> pursuing a <span class="main-text-design">Bachelor of Computer Science</span> and <span class="main-text-design">Physics</span> Bachelor of
+          Science degree at
+          <span class="main-text-design">Calvin University</span>. My interests are  <span class="main-text-design">Quantum Computing</span>, <span class="main-text-design">Operating Systems</span>, Back-End <span class="main-text-design">Web Development</span>, and  <span class="main-text-design">Japanese</span>.
+        </div>
+        <a href="./activities.html" class="activitiy_button btn"
+        ><span>Skills & Activities</span
+          ><span class="button__entity">&rarr;</span></a
+          >
+       
+      </article>
+    </main>
+    <section class="projects" id="p_p">
+      <main class="personal_projects container">
+        <header class="personal_projects__header">PERSONAL PROJECTS</header>
+        <article class="personal_projects__container section section__hidden">
+          <div data-slider-no="1" class="p_project">
+            <div class="p_project__header ">1. Photography Hub</div>
+            <article class="p_project__body ">
+              <p class="p_project__text">
+                <strong>Description:</strong> an interactive, responsive website
+                application.
+              </p>
+              <p class="p_project__text">
+                Photography Hub displays my understanding of HTML5, CSS3, and
+                Website Design Rules. I used flexbox, grid, transformations,
+                positioning and other CSS3 styles to create its layout then
+                applied JavaScript to make the appliation somewhat interactive.
+              </p>
+            </article>
+
+            <a
+              href="https://github.com/ntadom-samuel/Photography-Hub/tree/main/Photography%20Hub"
+              class="link "
+              ><span>View</span> <span class="button__entity ">&rarr;</span></a
+            >
+          </div>
+          <div data-slider-no="2" class="p_project">
+            <div class="p_project__header ">2. Nta Íwè</div>
+            <article class="p_project__body ">
+              <p class="p_project__text">
+                <strong>Description:</strong> an interactive, responsive website
+                application.
+              </p>
+              <p class="p_project__text">
+                Nta iwé is less impressive than Photography Hub in terms of
+                design. I created it to practice and display advanced
+                JavaScript-- DOM manipulation.
+              </p>
+            </article>
+
+            <a href="https://github.com/ntadom-samuel/Nta-iwe" class="link "
+              ><span>View</span> <span class="button__entity">&rarr;</span></a
+            >
+          </div>
+          <div data-slider-no="3" class="p_project">
+            <div class="p_project__header ">3. Database Management System</div>
+            <article class="p_project__body ">
+              <p class="p_project__text">
+                <strong>Description:</strong> a simple Database Management
+                System
+              </p>
+              <p class="p_project__text">
+                I created this software as my final project for CS 108:
+                Introduction to Computing with Python. Its purpose is to be used
+                by ride-hailing companies to analyze their business database and
+                strategize with the results to increase revenue and decrease
+                expenditure.
+              </p>
+            </article>
+
+            <a href="https://github.com/ntadom-samuel/Database-Management-System" class="link "
+              ><span>View</span> <span class="button__entity">&rarr;</span></a
+            >
+          </div>
+          <ion-icon
+            class="slide__arrows arrow__left hidden"
+            name="chevron-back-outline"
+          ></ion-icon>
+          <ion-icon
+            class="slide__arrows arrow__right hidden"
+            name="chevron-forward-outline"
+          ></ion-icon>
+        </article>
+        <div class="nav_links_display_phones_container hidden">
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#p_p" class="nav_link">Projects</a>
+          <a href="#c_p" class="nav_link">Contact</a>
+          <a href="/activities.html" class="nav_link">Activities & Courses</a>
+          <a href="about.html" class="nav_link">Me</a>
+          <div></div>
+          <ion-icon class="close__icon" name="close-outline"></ion-icon>
+        </div>
+      </main>
+      <footer class="udemy_projects">
+        <header class="udemy_projects__header container">UDEMY PROJECTS</header>
+        <article class="udemy_projects__container container">
+          <a
+            href="https://github.com/ntadom-samuel/Udemy-Node-Farm-Application"
+            class="project"
+            >Node.js: Server-side Web Application</a
+          >
+          <a
+            href="https://github.com/ntadom-samuel/Udemy-Mapty-Applicaton/tree/main/starter"
+            class="project"
+            >Web Application for tourists</a
+          >
+          <a href="https://omnifood-irentadom.netlify.app" class="project"
+            >HTML 5 and CSS3: Responsive Web App</a
+          >
+          <a
+            href="https://github.com/ntadom-samuel/Udemy-Bankist-Application"
+            class="project"
+            >Advanced JavaScript: A Bank's Portfolio</a
+          >
+          <a href="#" class="project">Advanced DOM Manipulation: A Banking Web App</a>
+          <a href="#" class="project">Web Application for Recipes: MVC</a>
+        </article>
+      </footer>
+    </section>
+   
+    <footer class="contact-page" id="c_p">
+      <div class="contact_container container section section__hidden">
+        <span class="bar__one">
+          <a href="#home" class="bar__one__text">S/NTADOM</a>
+          <div class="copyright">Samuel Ntadom's Portfolio. &copy; <span class="date">DATE</span> </div>
+        </span>
+        <span class="bar__two">
+          <header class="bar__two__header">Contact</header>
+          <article class="bar__two__article">
+            <div class="container__bar__two__text">
+              <a class="bar__two__text" href=mailto:"samuelntadom@gmail.com">samuelntadom@gmail.com</a>
+            </div>
+            <div class="container__bar__two__text">
+              <a class="bar__two__text" href=mailto:"sin2@calvin.edu"
+                >sin2@calvin.edu</a
+              >
+            </div>
+            <a
+              class="bar__two__text"
+              href="https://www.linkedin.com/in/ntadom-samuel-47a3bb232/"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </article>
+        </span>
+      </div>
+    </footer>
+
+    
+
+    <!-- This format of including icons doesn't work when you are using parcel because parcel uses scripts and not modules. -->
+    <!-- <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" -->
+    <!-- ></script> -->
+  </body>
+</html>

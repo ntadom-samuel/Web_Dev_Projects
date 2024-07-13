@@ -1,0 +1,232 @@
+/* LANDING PAGE */
+.landing_page {
+  height: 100vh;
+}
+
+.nav_bar {
+  margin-bottom: 12.8rem !important;
+}
+
+.landing_page_body__header {
+  text-align: center;
+  margin-top: 6.4rem;
+  margin-bottom: 3.6rem;
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+.landing_page_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.landing_page_body__article {
+  color: #212529;
+  margin-bottom: 4.8rem;
+  width: 85%;
+  font-size: 2rem;
+  line-height: 1.8;
+  font-weight: 600;
+  text-align: center;
+}
+.main-text-design,
+.main-text-design:first-child {
+  color: #868e96;
+}
+/* .main-text-design:first-child {
+  font-size: 3rem;
+  font-weight: 700;
+} */
+
+.activitiy_button,
+.activitiy_button:link,
+.activitiy_button:visited {
+  color: #f8f9fa;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.8rem 3.6rem;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.activitiy_button:hover,
+.activitiy_button:active {
+  color: #212529;
+  background-color: #f8f9fa;
+  box-shadow: inset 0 0 0 1px #212529;
+  transition: all 0.3s;
+}
+
+/* PROJECTS */
+/* ---- PERSONAL */
+
+.personal_projects {
+  padding: 5.2rem 0;
+}
+
+.personal_projects__header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4.8rem;
+}
+
+.personal_projects__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.p_project {
+  display: grid;
+  grid-template-rows: 0.5fr 3fr 0.5fr;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 6.4rem 3.2rem;
+}
+
+.p_project__header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #868e96;
+}
+
+.p_project__body {
+  font-size: 1.6rem;
+  line-height: 1.9;
+}
+
+.p_project__text:first-child {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.p_project__text:last-child {
+  color: #868e96;
+}
+
+.link,
+.link:visited,
+.link:link {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  gap: 0.5rem;
+  color: #212529;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #212529;
+}
+
+.link:hover,
+.link:active {
+  color: #868e96;
+  border-bottom: 1px solid #868e96;
+}
+
+/* ---- UDEMY*/
+.udemy_projects {
+  background-color: #dee2e6;
+  padding: 3.2rem 0;
+}
+
+.udemy_projects__header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4.8rem;
+  color: #495057;
+}
+
+.udemy_projects__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.2rem;
+}
+
+.project,
+.project:visited,
+.project:link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #212529;
+  background-color: #f8f9fa;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 4.8rem 2.4rem;
+}
+
+.project:hover,
+.project:active {
+  color: #868e96;
+  box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+/* ////////////////////  540px*/
+
+/* SLIDERS */
+
+.slide__arrows {
+  position: absolute;
+  font-size: 1rem;
+  padding: 2rem 2rem;
+  color: #f8f9fa;
+  background-color: #495057a3;
+}
+
+.arrow__left,
+.arrow__right {
+  top: 50%;
+  transform: translateY(-15%);
+}
+
+.arrow__right {
+  right: 0%;
+}
+
+/* Menu Icon */
+.menu {
+  font-size: 4.4rem;
+}
+
+.nav_links_display_phones_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.4rem 3.2rem 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.15);
+}
+
+.close__icon,
+.close__icon:link,
+.close__icon:visited {
+  color: #212529;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.6rem 0.6rem;
+}
+.close__icon:hover,
+.close__icon:active {
+  color: #495057;
+  box-shadow: inset 0 0 0 1px #495057;
+  transition: all 1s;
+}
