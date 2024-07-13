@@ -1,4 +1,4 @@
-# My_Projects
+# Web_Dev_Projects
 
 This repository contains projects I completed independently and those I completed under supervision. 
 
