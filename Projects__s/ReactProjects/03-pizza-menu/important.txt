@@ -1,2 +1,0 @@
-Definitions
-1. Rendering a list in react is creating a component for each element of an array
