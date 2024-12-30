@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio. It displays my projects, skills, and experience.",
+  "scripts": {
+    "build": "parcel build main.html",
+    "start": "parcel main.html"
+  },
+  "author": "Samuel Ntadom",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  }
+}
