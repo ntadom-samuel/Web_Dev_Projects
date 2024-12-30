@@ -18,7 +18,7 @@ Time spent: 1 month spent in total
 
 ## Notes
 
-I created this app to practice using the materials I leanrned from <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=24T7MT123024">Build Responsive Real-World Websites with HTML and CSS</a>. My final project for thsi course can be viewed with this  <a href="https://omnifood-irentadom.netlify.app/">link</a>
+I created this app to practice what I learned from <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=24T7MT123024">Build Responsive Real-World Websites with HTML and CSS</a>. To view my final project from this course, use this  <a href="https://omnifood-irentadom.netlify.app/">link</a>.
 
 
 ## License
