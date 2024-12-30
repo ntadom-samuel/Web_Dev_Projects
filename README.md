@@ -1,8 +1,8 @@
 # Web_Dev_Projects
 
-This repository contains projects I completed independently and those I completed under supervision. 
-
-My independent projects are in the "Projects" folder, and my other projects are in "Projects__s." Both directories display my understanding of computing and full-stack web development.
+This repository contains my independent web development projects, which include
+1. Photography hub-- created with HTML, CSS, and Vanilla JavaScript
+2. PORTFOLIO-- created with HTML, CSS, and Vanilla JavaScript
 
 
 
