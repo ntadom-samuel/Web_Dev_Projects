@@ -1,5 +1,4 @@
 # First Website
-
 Submitted by: Samuel Ntadom
 
 
