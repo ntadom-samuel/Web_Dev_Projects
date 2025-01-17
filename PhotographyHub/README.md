@@ -8,13 +8,6 @@ Time spent: 1 month spent in total
 ## Features
 - [x] Responsive
 - [x] Somewhat Dynamic
- 
-# Video
-<div>
-    <a href="https://www.loom.com/share/8e491b883b02420cb57bf3b74d2ab1f9">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8e491b883b02420cb57bf3b74d2ab1f9-3e1de28e11e98ff8-full-play.gif">
-    </a>
- </div>
 
 ## Notes
 
