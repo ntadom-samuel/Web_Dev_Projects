@@ -7,13 +7,6 @@ Time spent: 2 weeks spent in total
 ## Features
 - [x] Responsive
 - [x] More Dynamic
- 
-# Video
-<div>
-    <a href="https://www.loom.com/share/21808ad19ad44f4daeff304d3a28a6a1">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/21808ad19ad44f4daeff304d3a28a6a1-d934ba862cdb8651-full-play.gif">
-    </a>
- </div>
 
 ## Notes
 
